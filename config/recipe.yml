@@ -26,8 +26,6 @@ modules:
     install:
       # - micro
       # - starship
-      - "https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm"
-      - "https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm"
       - wl-kmod
     remove:
       - firefox # default firefox removed in favor of flatpak
